@@ -9,16 +9,17 @@
 - torchaudio==0.9.0
 
 ### 2. Datasets
-
+Please download the following datasets:
 - [LibriSpeech (clean test)](https://www.openslr.org/resources/12/test-clean.tar.gz)
 - [TEDLIUM](https://lium.univ-lemans.fr/en/ted-lium2/)
 
 ### 3. Model
+Please download the following model checkpoints and extract parameters in the form of dictionary:
 - [Pre-trained DeepSpeech (LSTM)](https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/librispeech_pretrained_v3.ckpt
-  ) (We extracted the model parameters.)
+  ) 
   
 - [Pre-trained Wav2Letter](https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition/wave2letter 
-) (We extracted the model parameters.)
+) 
 
 ### 4. Run attack
 1. `chmod +x run.sh` 
