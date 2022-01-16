@@ -15,11 +15,11 @@ Please download the following datasets:
 
 ### 3. Model
 Please download the following model checkpoints and extract parameters in the form of dictionary:
-- [Pre-trained DeepSpeech (LSTM)](https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/librispeech_pretrained_v3.ckpt
-  ) 
-  
-- [Pre-trained Wav2Letter](https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition/wave2letter 
-) 
+- [Pre-trained DeepSpeech (LSTM)](https://github.com/SeanNaren/deepspeech.pytorch/releases/download/V3.0/librispeech_pretrained_v3.ckpt)  
+- [Pre-trained Wav2Letter](https://nvidia.github.io/OpenSeq2Seq/html/speech-recognition/wave2letter) 
+
+Please train DeepSpeech (GRU) according to the following instruction:
+- [DeepSpeech (GRU)](https://github.com/jiwidi/DeepSpeech-pytorch)
 
 ### 4. Run attack
 1. `chmod +x run.sh` 
