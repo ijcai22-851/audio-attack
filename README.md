@@ -23,7 +23,7 @@ Please train DeepSpeech (GRU) according to the following instruction:
 
 ### 4. Run attack
 1. `chmod +x run.sh` 
-1. enter the project folder in terminal 
+2. enter the project folder in terminal 
 3. run `python run.sh <method> <coordinates a batch> <use TD> <dataset> <data path>`
 - `<method>: [nes, fd, zoo, genetic]`
 - `<coordinates a batch>: [200,500]`
